@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  MagicalCreature.h
 //  MCMS
 //
 //  Created by Bradley Walker on 10/7/14.
 //  Copyright (c) 2014 BlackSummerVentures. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-@property NSMutableArray *creatures;
+@interface MagicalCreature : NSObject
+@property NSString *name;
 @end
-
